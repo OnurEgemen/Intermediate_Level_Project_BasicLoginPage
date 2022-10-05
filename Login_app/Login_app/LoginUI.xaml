@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login_app.LoginUI">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="Fill">
+            <Label Text="Register" FontSize="Large" FontAttributes="Bold" TextColor="Black" VerticalOptions="FillAndExpand"/>
+            <Label Text="Enter your Details below to continue" FontSize="Medium" TextColor="Gray" VerticalOptions="FillAndExpand"/>
+
+            <Entry Placeholder="Username" TextColor="Gray" PlaceholderColor="LightGray" ></Entry>
+            <Entry Placeholder="Email Adress" TextColor="Gray" PlaceholderColor="LightGray"></Entry>
+            <Entry Placeholder="Password" IsPassword="True" TextColor="Gray" PlaceholderColor="LightGray"></Entry>
+
+            
+
+            <Button
+                VerticalOptions="Center"
+                Text="Sign Up"
+                TextColor="White"
+                BackgroundColor="#0f64f7"
+                CornerRadius="50"
+                ></Button>
+            <Label Text="Or continue with" FontSize="Caption" TextColor="Gray"/>
+            
+             <Button
+                VerticalOptions="Center"
+                Text="Continue with Google"
+                TextColor="Black"
+                BorderColor="DarkGray"
+                BackgroundColor="White"
+                CornerRadius="50"
+                ></Button>
+            <Button
+                VerticalOptions="Center"
+                Text="Continue with Facebook"
+                TextColor="Black"
+                BorderColor="DarkGray"
+                BackgroundColor="White"
+                CornerRadius="50"
+                ></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
